@@ -1,10 +1,10 @@
 body {
     display: grid;
     grid-template-columns: 100px auto;
-    grid-template-areas: 
-    "header header"
-    "aside main"
-    "footer footer";
+    grid-template-areas:
+        "head head"
+        "aside main"
+        "foot foot";
     gap: 10px;
 }
 
@@ -22,13 +22,13 @@ header h1 {
     vertical-align: middle;
 }
 
-aside ul {
+ul li {
     list-style-type: none;
     margin: 0px;
     padding: 5px;
 }
 
-li a {
+a {
     display: block;
     padding: 5px 0px;
     color: rgb(86, 40, 129);
@@ -36,18 +36,17 @@ li a {
 }
 
 header {
-    grid-area: header;
-}
-
-aside {
-    grid-area: aside;
+    grid-area: head;
 }
 
 main {
     grid-area: main;
 }
 
-footer {
-    grid-area: footer;
+aside {
+    grid-area: aside;
 }
 
+footer {
+    grid-area: foot;
+}
