@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div {
+    width: 350px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0px 0px 32px 26px rgba(0, 0, 0, 0.1);
+
+}
+
+p {
+    padding: 10px 0px;
+}
+
+h1 {
+    font-size: 24px;
+}
