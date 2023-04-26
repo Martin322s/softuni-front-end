@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    padding-top: 20px;
+    vertical-align: middle;
+    position: relative;
+    z-index: 3;
+    top: 0%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:not(:nth-child(1)):hover {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #370511;
+    font-size: 16px;
+}
+
+.nav-item:nth-child(1) {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-item:not(:nth-child(1)) {
+    margin-right: 100px;
+}
+
+.heading img {
+    width: 100%;
+    height: 680px;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+.background-content {
+    position: relative;
+    z-index: 3;
+    top: -400px;
+    left: 200px;
+}
+
+#background-content-heading {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.background-content h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.background-content p {
+    font-weight: 400;
+}
+
+
+article.background-content p:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+article.background-content button {
+    background-color: #370511;
+    color: white;
+    border-radius: 20px;
+    padding: 2px 25px;
+}
+
+.places {
+    margin-top: -200px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.places h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.places p {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.publications-part-one, .publications-part-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.publications-part-one p, .publications-part-two p {
+    width: 300px;
+    font-size: 14px;
+}
+
+.publication {
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.publication h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.publication img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.publication button {
+    border-radius: 25px;
+    background-color: white;
+    padding: 9px 30px;
+    color: #464752;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    padding: 50px;
+    color: white;
+    background-color: black;
+}
+
+footer h1{
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer ul:nth-of-type(2) {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul:nth-of-type(3) li:nth-child(1) {
+    font-size: 14px;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-right: 10px;
+}
