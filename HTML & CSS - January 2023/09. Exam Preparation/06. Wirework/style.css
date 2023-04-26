@@ -1,0 +1,161 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+body {
+    font-family: "Helvetica", sans-serif;
+}
+
+.heading {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    z-index: 2;
+    position: relative;
+    background-color: white;
+    top: 0%;
+    padding-bottom: 20px;
+    vertical-align: middle;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar li:not(:nth-child(1)):not(:nth-child(2)) {
+    padding: 15px 20px;
+    margin-top: 10px;
+    margin-right: 2px;
+    background-color: #ececec;
+}
+
+.navbar li:not(:nth-child(1)):not(:nth-child(2)):hover {
+    color: white;
+    background-color: #e24e2a;
+}
+
+.navbar li:nth-child(1) {
+    font-size: 30px;
+    border-right: 1px solid black;
+    padding-right: 15px;
+    font-weight: 600;
+    margin-left: 65px;
+}
+
+.navbar li:nth-child(2) {
+    font-size: 12px;
+    align-self: center;
+    vertical-align: bottom;
+    padding-left: 5px;
+    margin-right: 250px;
+    font-weight: 600;
+    color: #60686a;
+    padding-left: 20px;
+}
+
+.home img {
+    width: 100%;
+    position: relative;
+    top: -270px;
+    z-index: 1;
+}
+
+.content {
+    background-color: #e24e2a;
+    position: relative;
+    z-index: 3;
+}
+.content p {
+    color: #eea38c;
+    margin-top: -500px;
+    padding: 60px;
+    font-size: 14px;
+    text-align: center;
+    width: 1020px;
+    margin-left: 230px;
+}
+
+.elements {
+    background-color: #383838;
+    position: relative;
+    z-index: 3;
+    top: -5px;
+    color: white;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.elements h6 {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #616360;
+    margin-bottom: 20px;
+}
+
+i {
+    background-color: #e24e2a;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.elements p {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #616360;
+}
+
+.info h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 65px;
+    font-weight: 400;
+    color: #565656;
+}
+
+.info p {
+    text-align: center;
+    color: #a2a6af;
+    margin-bottom: 25px;
+}
+
+.info button {
+    position: relative;
+    left: 44%;
+    padding: 20px 60px;
+    margin-bottom: 70px;
+    color: white;
+    border: none;
+    background-color: #1b9772;
+    font-size: 15px;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #383838;
+    color: white;
+    padding: 100px;
+}
+
+.item h2 {
+    font-weight: 400;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #5b636a;
+}
+
+footer {
+    background-color: #1b9772;
+    padding: 100px;
+    text-align: center;
+    color: #95cebd;
+}
