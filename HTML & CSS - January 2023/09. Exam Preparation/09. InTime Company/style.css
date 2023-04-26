@@ -1,0 +1,252 @@
+@import url('https://use.fontawesome.com/releases/v5.10.2/css/all.css');
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.heading {
+    padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+.second-part {
+    color: #2ea8bb;
+}
+
+.navbar li {
+    font-size: 20px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+
+.navbar li:not(:first-child):hover {
+    text-decoration: underline;
+    text-decoration-color: #2ea8bb;
+    text-decoration-thickness: 3px;
+}
+
+.navbar li:nth-child(1) {
+    margin-left: 170px;
+    margin-right: 510px;
+}
+
+.home {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.container-section-one {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    width: 535px;
+    font-size: 40px;
+    border: 1px solid black;
+    padding: 0px 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+}
+
+.container-section-one button {
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 0px 20px;
+    color: white;
+    background-color: #008cba;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.content-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.txt {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.content button {
+    text-align: center;
+    position: relative;
+    left: 47%;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: #454545;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+.empty {
+    border-top: 3px solid #3db5c7;
+    width: 103px;
+    position: relative;
+    left: 47%;
+    margin-bottom: 10px;
+}
+
+.services {
+    background-color: #eef0f1;
+}
+
+.services-heading {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.empty-two {
+    border-top: 3px solid #4b4b4b;
+    width: 103px;
+    position: relative;
+    left: 47%;
+    margin-bottom: 40px;
+}
+
+.article-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.article-container article {
+    width: 380px;
+    text-align: center;
+    background-color: white;
+}
+
+.article-container h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+
+.article-container article p {
+    width: 290px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.article-container button {
+    margin-bottom: 30px;
+    border: none;
+    color: white;
+    background-color: #454545;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.subscribe {
+    background-color: #393f43;
+    padding-bottom: 40px;
+}
+
+.subscribe-heading {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.empty-three {
+    border-top: 3px solid white;
+    width: 103px;
+    position: relative;
+    left: 47%;
+    margin-bottom: 30px;
+}
+
+.subscribe-txt {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.subscribe .input-field {
+    position: relative;
+    width: 480px;
+    left: 28%;
+    height: 35px;
+    background-color: #545a5e;
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.subscribe button {
+    position: relative;
+    left: 28%;
+    padding: 5px 40px;
+    background-color: #6bbfff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.contacts {
+    background-color: #2f3539;
+    display: flex;
+}
+
+.contacts ul {
+    padding-top: 40px;
+    color: white;
+    justify-content: space-between;
+    margin-left: 230px;
+    padding-bottom: 30px;
+}
+
+.contacts ul li:nth-child(1) {
+    font-size: 20px;
+}
+
+.contacts ul li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.contacts ul:nth-child(3) li:nth-child(2) {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #262b2f;
+    padding: 5px 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer-txt {
+    color: #1c5b91;
+}
+
+i {
+    color: white;
+}
+
+.icon-item {
+    display: inline;
+}
