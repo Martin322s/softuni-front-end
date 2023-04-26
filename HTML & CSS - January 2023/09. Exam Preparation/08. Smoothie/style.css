@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+    margin: 100px;
+    font-family: 'PT Serif', serif;
+}
+.container {
+    background-image: url("./image/image1.png");
+    display: flex;
+    max-width: 400px;
+    box-shadow: 0px 3px 14px 5px #b2b2b2;
+    max-width: 870px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.empty {
+    border-top: 1px dotted #77bb77;
+    width: 450px;
+    position: relative;
+    left: 20px;
+}
+
+img {
+    width: 1200px;
+    padding: 15px;
+    padding-top: 15px;
+    align-items: flex-end;
+}
+
+.timeline {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-top: 2px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.timeline:nth-child(even) {
+    margin-right: 90px;
+}
+
+.ingredients {
+    font-size: 15px;
+    margin: 10px;
+    list-style-type: none;
+    padding-left: 15px;
+    word-spacing: 2px;
+}
+
+.gr {
+    color: green;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 14px;
+    max-width: 370px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.table-data, td {
+    border: 1px solid green;
+    border-collapse: collapse;
+    margin-left: 25px;
+    padding: 0px 50px;
+    font-size: 15px;
+    text-align: center;
+}
+
+thead td {
+    font-weight: bold;
+}
