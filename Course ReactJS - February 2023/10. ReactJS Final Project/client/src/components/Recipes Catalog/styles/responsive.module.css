@@ -1,0 +1,49 @@
+@media all and (max-width: 500px) and (min-width:300px) {
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .catalog {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 50px;
+    }
+
+    .links-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: 30px;
+
+    }
+
+    .catalog-recipes,
+    .catalog-products {
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    .catalog-recipes {
+        margin-left: 0px;
+        border: none;
+        margin-bottom: 20px;
+        border-bottom: 2px solid black;
+        width: 270px;
+        padding-bottom: 20px;
+    }
+
+    button.btn-pagination {
+        padding: 5px 10px;
+        background-color: rgb(183, 180, 180);
+        color: black;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 57px;
+        margin-bottom: 50px;
+        width: 300px;
+    }
+}

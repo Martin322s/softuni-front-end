@@ -1,0 +1,94 @@
+@media screen and (max-width: 600px) {
+    .login-page {
+        display: flex;
+    }
+
+    .info-list-resp {
+        position: absolute;
+        top: 40%;
+        z-index: -1;
+    }
+
+    .info-list li:first-child {
+        list-style-type: none;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .info-list li {
+        width: 360px;
+        margin-bottom: 15px;
+    }
+
+    .login-responsive {
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 400px;
+        margin-top: 500px;
+        margin-bottom: 50px;
+        padding: 10px 30px;
+        background-color: #fced81;
+        position: relative;
+        left: 1%;
+    }
+
+    .background-img {
+        height: 600px;
+        position: relative;
+        right: -751px;
+        display: none;
+    }
+
+    .login-heading {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .login-info {
+        text-align: center;
+        margin-bottom: 20px;
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        width: 305px;
+    }
+
+    .email {
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+    .password {
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .btn-login {
+        padding: 5px 15px;
+        background-color: #f6dc14;
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+
+    .btn-login:hover {
+        color: white;
+        background-color: black;
+    }
+
+    .user-info {
+        background-color: white;
+        border: 2px solid black;
+        margin-bottom: 20px;
+    }
+
+    .user-info label {
+        font-weight: 600;
+    }
+
+    .user-info h4 {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 15px;
+    }
+}

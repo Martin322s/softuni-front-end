@@ -1,0 +1,137 @@
+.register-page {
+    display: flex;
+}
+
+.info-list {
+    position: absolute;
+    top: 10%;
+    z-index: -1;
+}
+
+.info-list li:first-child {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info-list li {
+    width: 360px;
+    margin-bottom: 15px;
+}
+
+.register {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 35px;
+    margin-left: 0px;
+    margin-bottom: 150px;
+    padding: 10px 30px;
+    background-color: #fced81;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+}
+
+.register-background-img {
+    height: 800px;
+    position: relative;
+    right: -495px;
+    margin-bottom: 90px;
+}
+
+.register-heading {
+    text-align: center;
+    font-size: 25px;
+}
+
+.register-info {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    width: 305px;
+}
+
+.email {
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.password {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.btn-register {
+    padding: 5px 15px;
+    background-color: #f6dc14;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.btn-register:hover {
+    color: white;
+    background-color: black;
+}
+
+.user-info {
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.user-info label {
+    font-weight: 600;
+}
+
+.user-info h4 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.user-info a {
+    color: blue;
+    text-decoration: none;
+}
+
+.user-info a:hover {
+    color: #f6dc14;
+    text-decoration: underline;
+}
+
+.user-info label, input, p {
+    margin-left: 15px;
+}
+
+.user-info p {
+    margin-bottom: 10px;
+}
+
+.form-error {
+    font-size: 13px;
+    color: red;
+}
+
+p.characters,
+p.numeric,
+p.upper-case {
+    font-size: 14px;
+    margin-bottom: -4px;
+    font-weight: 600;
+}
+
+p.numeric {
+    margin-bottom: 5px;
+}
+
+.wrong {
+    color: red;
+}
+
+.correct {
+    color: rgb(8, 201, 8);
+}

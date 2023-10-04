@@ -1,0 +1,44 @@
+.background-img {
+    position: absolute;
+    right: 0px;
+    height: 514px;
+    top: 64px;
+}
+
+.error-img {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 315px;
+}
+
+.error-info {
+    width: 400px;
+    text-align: center;
+    margin-left: 230px;
+    margin-bottom: 25px;
+}
+
+.error-heading {
+    margin-left: 235px;
+}
+
+.error-link {
+    margin-left: 330px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: black;
+    background-color: #19e79c;
+}
+
+.error-link:hover {
+    color: white;
+    background-color: black;
+}
+
+.link-container {
+    margin-bottom: 65px;
+}

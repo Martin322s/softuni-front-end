@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap');
+
+.wrap-main {
+    background-color: #a5d8ff;
+    padding: 50px;
+}
+
+.details {
+    display: flex;
+    border: 4px solid black;
+    width: 1400px;
+    padding: 20px 50px;
+    gap: 40px;
+    margin: 40px auto 70px auto;
+    padding-left: 25px;
+    background-color: #fced81;
+    border-radius: 20px;
+}
+
+.details img {
+    width: 500px;
+    height: 500px;
+    margin-right: 70px;
+    border: 2px solid black;
+}
+
+.details-heading {
+    font-size: 47px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    border-bottom: 4px solid black;
+    padding-left: 13px;
+    text-align: center;
+}
+
+.recipe-data {
+    display: flex;
+    gap: 70px;
+    margin-top: 35px;
+}
+
+.ingredients li:not(:first-child) {
+    margin-left: 15px;
+    width: 210px;
+}
+
+.btn-details {
+    text-decoration: none;
+    margin-right: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: black;
+    background-color: #19e79c;
+    transition: background-color 0.2s ease;
+}
+
+.btn-details:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-details i {
+    margin-right: 8px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.first-item {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.back-btn {
+    padding: 10px 30px;
+    color: black;
+    font-weight: 600;
+    background-color: #fced81;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.back-btn i {
+    margin-right: 5px;
+}
+
+.back-btn:hover {
+    background-color: #19e79c;
+    color: black
+}

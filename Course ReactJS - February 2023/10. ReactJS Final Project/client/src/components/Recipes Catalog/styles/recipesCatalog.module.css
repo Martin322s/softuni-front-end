@@ -1,0 +1,135 @@
+.main-wrapper {
+    background-color: rgb(207, 241, 255);
+    padding-bottom: 180px;
+    padding-top: 30px;
+}
+
+.catalog {
+    display: flex;
+    gap: 40px;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 170px;
+    margin-top: 30px;
+    border: 2px solid black;
+    padding: 60px 30px;
+    background-color: #7dd0f0;
+    width: 1200px;
+    box-shadow: 20px -15px 29px grey;
+}
+
+.catalog-recipes,
+.catalog-products {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.catalog-recipes:hover,
+.catalog-products:hover {
+    text-decoration: underline;
+}
+
+.catalog-recipes {
+    margin-right: 20px;
+    border-right: 2px solid black;
+    padding-right: 25px;
+    margin-left: 535px;
+}
+
+.catalog-recipe {
+    border: 3px solid black;
+    width: 220px;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    background-color: #19e79c;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.catalog-recipe:hover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+    /* Replace with your desired background color */
+    z-index: 1;
+    /* Make sure the pseudo-element is on top of the article element */
+}
+
+.catalog-recipe:hover {
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.catalog-recipe img {
+    border-bottom: 3px solid black;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    height: 166px;
+}
+
+.catalog-recipe-title {
+    font-size: 26px;
+    margin-left: 10px;
+    height: 75px;
+}
+
+.catalog-recipe-category {
+    margin-left: 10px;
+    margin-bottom: 22px;
+}
+
+.details-btn {
+    margin-bottom: -7px;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.details-btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.no-content {
+    width: 1000px;
+    font-size: 35px;
+    text-align: center;
+}
+
+button.btn-pagination {
+    padding: 10px 15px;
+    background-color: rgb(183, 180, 180);
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-pagination:hover {
+    background-color: black;
+    color: white;
+}
+
+.curr-page {
+    font-size: 25px;
+    text-align: center;
+}

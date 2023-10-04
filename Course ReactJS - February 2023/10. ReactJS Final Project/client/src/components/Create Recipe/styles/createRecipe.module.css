@@ -1,0 +1,96 @@
+.background-img {
+    height: 490px;
+}
+
+.info li {
+    width: 330px;
+    margin-right: 122px;
+    margin-bottom: 10px;
+}
+
+.info li:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.create-page {
+    display: flex;
+}
+
+.create {
+    border: 2px solid black;
+    width: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #fced81;
+    border-radius: 10px;
+}
+
+.links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.create-recipe {
+    margin-left: 82px;
+    margin-right: 10px;
+}
+
+.create-recipe,
+.create-product {
+    color: black;
+    text-decoration: none;
+}
+
+.create-recipe:hover,
+.create-product:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.create-heading {
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    width: 280px;
+    margin-left: 61px;
+    margin-top: 15px;
+}
+
+.create label {
+    font-weight: 600;
+}
+
+.create label,
+.create input,
+.create textarea {
+    margin: 5px 60px;
+    width: 280px;
+}
+
+input.create-btn {
+    width: 200px;
+    color: black;
+    background-color: #f9dd0a;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px 98px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+input.create-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.ingredients-note {
+    width: 300px;
+    margin-left: 60px;
+    font-weight: 600;
+    color: red;
+}

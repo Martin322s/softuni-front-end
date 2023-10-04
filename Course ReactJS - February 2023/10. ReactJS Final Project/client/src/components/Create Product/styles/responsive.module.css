@@ -1,0 +1,34 @@
+@media all and (max-width: 480px) and (min-width:300px) {
+    .background-img {
+        position: absolute;
+        right: 0%;
+        height: 450px;
+        overflow: hidden;
+        top: 50.6%;
+    }
+
+    .info {
+        position: absolute;
+        z-index: 2;
+    }
+    
+    .info li {
+        list-style-type: none;
+        width: 330px;
+        margin-right: 122px;
+        margin-left: -35px;
+        margin-bottom: 10px;
+    }
+
+    .info li:first-child {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 80px;
+        list-style-type: none;
+    }
+
+    .create {
+        margin-top: 470px;
+        margin-left: 5px;
+    }
+}
